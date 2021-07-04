@@ -1,0 +1,33 @@
+.footer {
+    padding-top: 100px;
+    padding-bottom: 54px;
+    &__links {
+        display: inline-block;
+        padding: 0px 20px 20px;
+        line-height: 0px;
+        border-bottom: 1px solid #F8F9FA;
+        a {
+            font-size: 14px;
+            line-height: 14px;
+            color: #F8F9FA;
+            transition: 0.3s linear;
+            @media screen and (min-width: 768px) {
+                &:hover {
+                    opacity: 0.5;
+                }
+            }
+            @media (max-width: 767px) {
+                font-size: 12px;
+            }
+        }
+        span {
+            color: #F8F9FA;
+            font-size: 14px;
+            line-height: 14px;
+        }
+    }
+    .btn {
+        background-color: #17A2B8;
+        margin-top: 20px;
+    }
+}
